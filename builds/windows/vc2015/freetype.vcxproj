@@ -71,7 +71,8 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <DisableSpecificWarnings>4001</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4001;4819</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;$(UserDefines);%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -90,7 +91,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <DisableSpecificWarnings>4001</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4001;4819</DisableSpecificWarnings>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>_DEBUG;$(UserDefines);%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -106,8 +107,9 @@
       <PreprocessorDefinitions>WIN32;_LIB;_CRT_SECURE_NO_WARNINGS;FT2_BUILD_LIBRARY;NDEBUG;$(UserDefines);%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <WarningLevel>Level3</WarningLevel>
-      <DisableSpecificWarnings>4001</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4001;4819</DisableSpecificWarnings>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>NDEBUG;$(UserDefines);%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -124,7 +126,7 @@
       <PreprocessorDefinitions>WIN32;_LIB;_CRT_SECURE_NO_WARNINGS;FT2_BUILD_LIBRARY;NDEBUG;$(UserDefines);%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <WarningLevel>Level3</WarningLevel>
-      <DisableSpecificWarnings>4001</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4001;4819</DisableSpecificWarnings>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
